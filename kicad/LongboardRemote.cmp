@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = 10/06/2015 19:37:08
+
+BeginCmp
+TimeStamp = /555860E1;
+Reference = C1;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55595C00;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55596726;
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55585B7C;
+Reference = C4;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558C9E2;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558F9E4;
+Reference = C6;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558F988;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558E741;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EA546;
+Reference = D1;
+ValeurCmp = Led_Small;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55583CBD;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55595B47;
+Reference = L2;
+ValeurCmp = INDUCTOR;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeR_EIA-2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /555A5DF6;
+Reference = P1;
+ValeurCmp = USB_OTG;
+IdModule  = Connect:USB_Mini-B;
+EndCmp
+
+BeginCmp
+TimeStamp = /555828DB;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55582897;
+Reference = P3;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559047A;
+Reference = P4;
+ValeurCmp = CONN_01X04;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558A6F4;
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558BAEF;
+Reference = R2;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555880B5;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558850F;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55585EB8;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /555EB9A2;
+Reference = R6;
+ValeurCmp = 68R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559E207;
+Reference = R7;
+ValeurCmp = 2K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5559EB02;
+Reference = R8;
+ValeurCmp = 2K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55582826;
+Reference = RP1;
+ValeurCmp = R_PACK4;
+IdModule  = Resistors_SMD:R_Array_Concave_4x0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5557A0F1;
+Reference = RV1;
+ValeurCmp = Rnunchuck;
+IdModule  = modules:Rnunchuck;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558A8C0;
+Reference = SW1;
+ValeurCmp = SWnunchuck;
+IdModule  = Buttons_Switches_ThroughHole:SW_Micro_SPST;
+EndCmp
+
+BeginCmp
+TimeStamp = /55587150;
+Reference = SW2;
+ValeurCmp = SPST;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5558DF47;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = modules:SW_SMD_TACT_5.15x4.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /55593194;
+Reference = U1;
+ValeurCmp = STM32F030K6;
+IdModule  = Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /555959D7;
+Reference = U2;
+ValeurCmp = MCP1603T-250I/OS;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5557B332;
+Reference = U3;
+ValeurCmp = MCP73833;
+IdModule  = Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5557953C;
+Reference = U4;
+ValeurCmp = NRF24L01+;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /555990C9;
+Reference = U5;
+ValeurCmp = 24AA08T;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
+EndCmp
+
+EndListe

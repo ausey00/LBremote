@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>F:/Dropbox/Electronics/Longboard/Longboard controller/kicad/LongboardRemote.sch</source>
+    <date>20/05/2015 08:01:39</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LongboardRemote.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U4">
+      <value>NRF24L01+</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="interface" part="NRF24L01+"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5557953C</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>Rnunchuck</value>
+      <footprint>modules:Rnunchuck</footprint>
+      <fields>
+        <field name="R">10K</field>
+      </fields>
+      <libsource lib="interface" part="Rnunchuck"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5557A0F1</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73833</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="microchip" part="MCP73833"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5557B332</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>R_PACK4</value>
+      <footprint>Resistors_SMD:R_Array_Concave_4x0603</footprint>
+      <fields>
+        <field name="R">10K</field>
+      </fields>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55582826</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55582897</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555828DB</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>INDUCTOR</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55583CBD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55585B7C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55585EB8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555860E1</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SPST</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55587150</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555880B5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558850F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558A6F4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SWnunchuck</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_Micro_SPST</footprint>
+      <libsource lib="device" part="SWnunchuck"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558A8C0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558BAEF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F030K6</value>
+      <footprint>Housings_QFP:LQFP-32_5x5mm_Pitch0.5mm</footprint>
+      <libsource lib="stm32" part="STM32F030K6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55593194</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1603T-250I/OS</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5</footprint>
+      <libsource lib="microchip" part="MCP1603T-250I/OS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555959D7</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>INDUCTOR</value>
+      <footprint>Inductors_NEOSID:Neosid_Inductor_SMS-ME3010</footprint>
+      <fields>
+        <field name="H">4.7uH</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55595B47</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55595C00</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55596726</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558C9E2</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558DF47</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558E741</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558F988</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5558F9E4</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5559047A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>24AA08T</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5</footprint>
+      <libsource lib="microchip" part="24AA08T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555990C9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5559E207</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5559EB02</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>USB_OTG</value>
+      <footprint>Connect:USB_Mini-B</footprint>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>555A5DF6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB OTG micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_PACK4">
+      <description>4 resistors Pack</description>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R3" type="passive"/>
+        <pin num="7" name="R2" type="passive"/>
+        <pin num="8" name="R1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SWnunchuck">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWnunchuck</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="Z" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="interface" part="NRF24L01+">
+      <description>2.4Ghz transceiver drop-in module on 2.54 pitch header</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="Vcc" type="input"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="CSN" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MISO" type="input"/>
+        <pin num="8" name="IRQ" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="interface" part="Rnunchuck">
+      <description>Nunchuck potentiometer for X and Y travel on joystick</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Rnunchuck</field>
+        <field name="R">10K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="4" type="passive"/>
+        <pin num="2" name="5" type="passive"/>
+        <pin num="3" name="6" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="microchip" part="24AA08T">
+      <description>8K I2C Serial EEPROM</description>
+      <footprints>
+        <fp>*SOT-23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24AA08T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="openCol"/>
+        <pin num="2" name="Vss" type="power_in"/>
+        <pin num="3" name="SDA" type="openCol"/>
+        <pin num="4" name="Vcc" type="power_in"/>
+        <pin num="5" name="WP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="microchip" part="MCP1603T-250I/OS">
+      <description>2.0 MHz, 500 mA Synchronous Buck Regulator</description>
+      <footprints>
+        <fp>*TSOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1603T-250I/OS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~SHDN" type="input"/>
+        <pin num="4" name="Vfb/Vout" type="output"/>
+        <pin num="5" name="Lx" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="microchip" part="MCP73833">
+      <description>Li-Polymer Charge  Management Controller</description>
+      <footprints>
+        <fp>*DFN-10*</fp>
+        <fp>*MSOP-10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73833</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="STAT1" type="passive"/>
+        <pin num="4" name="STAT2" type="passive"/>
+        <pin num="5" name="VSS" type="passive"/>
+        <pin num="6" name="PROG" type="passive"/>
+        <pin num="7" name="PG" type="passive"/>
+        <pin num="8" name="THERM" type="passive"/>
+        <pin num="9" name="VBAT" type="passive"/>
+        <pin num="10" name="VBAT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="stm32" part="STM32F030K6">
+      <description>STM32F030K6, 32-bit ARM Cortex-M0 Microcontroller, 48MHz, 32KB Flash, 4KB RAM, RTC, LQFP32</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F030K6</field>
+        <field name="Footprint">LQFP-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PF0/OSC_IN" type="BiDi"/>
+        <pin num="3" name="PF1/OSC_OUT" type="BiDi"/>
+        <pin num="4" name="~NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="WKUP1/RTC_TAMP2/ADC_IN0/USART1_CTS/PA0" type="BiDi"/>
+        <pin num="7" name="ADC1_IN1/USART1_RTS/EVENTOUT/PA1" type="BiDi"/>
+        <pin num="8" name="ADC1_IN2/USART1_TX/PA2" type="BiDi"/>
+        <pin num="9" name="ADC1_IN3/USART1_TX/PA3" type="BiDi"/>
+        <pin num="10" name="SPI1_NSS/USART1_CK/ADC_IN4/TIM14_CH1/PA4" type="BiDi"/>
+        <pin num="11" name="SPI1_SCK/ADC1_IN5/PA5" type="BiDi"/>
+        <pin num="12" name="SPI1_MISO/TIM3_CH1/TIM1_BKIN/ADC_IN6/TIM16_CH1/EVENTOUT/PA6" type="BiDi"/>
+        <pin num="13" name="SPI1_MOSI/TIM3_CH2/TIM14_CH1/TIM1_CH1N/ADC_IN7/TIM17_CH1/EVENTOUT/PA7" type="BiDi"/>
+        <pin num="14" name="ADC1_IN8/TIM3_CH3/TIM1_CH2N/EVENTOUT/PB0" type="BiDi"/>
+        <pin num="15" name="ADC1_IN9/TIM3_CH4/TIM14_CH1/TIM1_CH3N/PB1" type="BiDi"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="USART1_CK/TIM1_CH1/MCO/EVENTOUT/PA8" type="BiDi"/>
+        <pin num="19" name="USART1_TX/TIM1_CH2/I2C1_SCL/PA9" type="BiDi"/>
+        <pin num="20" name="USART1_RX/TIM1_CH3/TIM17_BKIN/I2C1_SDA/PA10" type="BiDi"/>
+        <pin num="21" name="USART1_CTS/TIM1_CH4/EVENTOUT/PA11" type="BiDi"/>
+        <pin num="22" name="USART1_RTS/TIM1_ETR/EVENTOUT/PA12" type="BiDi"/>
+        <pin num="23" name="IR_OUT/SWDAT/PA13" type="BiDi"/>
+        <pin num="24" name="USART1_TX/SWCLK/PA14" type="BiDi"/>
+        <pin num="25" name="SPI1_NSS/USART1_RX/EVENTOUT/PA15" type="BiDi"/>
+        <pin num="26" name="SPI1_SCK/EVENTOUT/PB3" type="BiDi"/>
+        <pin num="27" name="SPI1_MISO/TIM3_CH1/EVENTOUT/PB4" type="BiDi"/>
+        <pin num="28" name="SPI1_MOSI/I2C1_SMBA/TIM16_BKIN/TIM3_CH2/PB5" type="BiDi"/>
+        <pin num="29" name="I2C1_SCL/USART1_TX/TIM16_CH1N/PB6" type="BiDi"/>
+        <pin num="30" name="I2C1_SDA/USART1_RX/TIM17_CH1N/PB7" type="BiDi"/>
+        <pin num="31" name="BOOT0" type="input"/>
+        <pin num="32" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>F:\Dropbox\Electronics\KiCAD\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>F:\Dropbox\Electronics\KiCAD\library\device.lib</uri>
+    </library>
+    <library logical="interface">
+      <uri>F:\Dropbox\Electronics\KiCAD\library\interface.lib</uri>
+    </library>
+    <library logical="microchip">
+      <uri>F:\Dropbox\Electronics\KiCAD\library\microchip.lib</uri>
+    </library>
+    <library logical="stm32">
+      <uri>F:\Dropbox\Electronics\KiCAD\library\stm32.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/X-axis">
+      <node ref="RV1" pin="5"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="2" name="/Radio_MISO">
+      <node ref="U4" pin="7"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="3" name="/Radio_MOSI">
+      <node ref="U4" pin="6"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="4" name="/Radio_SCK">
+      <node ref="U4" pin="5"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="5" name="/Radio_CSN">
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="6" name="/Radio_CE">
+      <node ref="U1" pin="30"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="7" name="/Y-axis">
+      <node ref="U1" pin="9"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="8" name="/C_button">
+      <node ref="R2" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="9" name="/Z_button">
+      <node ref="U1" pin="10"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="10" name="/~NRST">
+      <node ref="U1" pin="4"/>
+      <node ref="C5" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="U1" pin="16"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="31"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="RP1" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(L2-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(P2-Pad2)">
+      <node ref="P3" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P2-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="19" name="/SDA_EEPROM">
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="20"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="20" name="/THERM">
+      <node ref="U3" pin="8"/>
+      <node ref="RP1" pin="8"/>
+    </net>
+    <net code="21" name="/PG">
+      <node ref="U1" pin="6"/>
+      <node ref="RP1" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="22" name="/SCL_EEPROM">
+      <node ref="U5" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="23" name="/Radio_IRQ">
+      <node ref="U1" pin="29"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="30" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="31" name="Net-(P1-Pad4)">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="32" name="/SWDAT">
+      <node ref="P4" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="33" name="/SWCLK">
+      <node ref="U1" pin="24"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="34" name="VDD">
+      <node ref="C6" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="RP1" pin="5"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U1" pin="17"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="RP1" pin="7"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="RV1" pin="6"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="RP1" pin="6"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="37" name="/STAT1">
+      <node ref="RP1" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="38" name="/STAT2">
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="RP1" pin="3"/>
+    </net>
+    <net code="39" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="RV1" pin="4"/>
+    </net>
+    <net code="40" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="41" name="+BATT">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="10"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="42" name="/VUSB">
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>
