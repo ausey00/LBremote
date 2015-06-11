@@ -1,0 +1,16 @@
+LBremote changelog
+TBC  To Be Completed
+Done Completed changes
+
+-----v0.2-----
+First working version
+
+-----v0.3-----
+TBC  Changed mini-USB connector for micro-USB to make connector mating edge flush with controller housing
+TBC  Updated footprint of on/off switch to allow for mounting holes
+TBC  Moved on-off switch to create bigger clearance inside the closed controller - v0.2 barely fits
+TBC  Updated programming header to one that doesn't interfere with the joystick movement
+TBC  Widened joystick through hole drills to accommodate any left-over solder widening the pin diameter from stock board
+TBC  changed battery connector to polarised 2-pin connector
+TBC  Brought in USB connector pcb edge to suit micro-USB connector
+TBC  Move power LED to outer edge of micro usb pcb edge
